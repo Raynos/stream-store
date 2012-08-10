@@ -1,0 +1,38 @@
+{
+  "name": "stream-store",
+  "version": "0.0.1",
+  "description": "Storage API for streams",
+  "keywords": [],
+  "author": "Raynos <raynos2@gmail.com>",
+  "repository": "git://github.com/Raynos/stream-store.git",
+  "main": "index",
+  "homepage": "https://github.com/Raynos/stream-store",
+  "contributors": [
+    {
+      "name": "Jake Verbaten"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/Raynos/stream-store/issues",
+    "email": "raynos2@gmail.com"
+  },
+  "dependencies": {
+    "through": "~0.1.4",
+    "memory-store": "0.0.1"
+  },
+  "devDependencies": {
+    "testling": "git://github.com/Raynos/testling#master",
+    "testem": "git://github.com/Raynos/testem#master",
+    "sinon": "git://github.com/Raynos/Sinon.JS.git",
+    "tap": "0.2.5"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://github.com/Raynos/stream-store/raw/master/LICENSE"
+    }
+  ],
+  "scripts": {
+    "test": "make node-test"
+  }
+}
